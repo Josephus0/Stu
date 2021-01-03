@@ -1,0 +1,118 @@
+.Markdown{
+    position:fixed;
+    left:60px;
+    /*因为顶部导航栏的高度为：50，编辑器的div*/
+    top:65px;
+
+}
+
+.MarkTop{
+    position:fixed;
+    left:-1px;
+    /* 设置宽度高度背景颜色 */
+    height: 50px; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background: rgba(255,255,255,0.5);
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.MarkTop ul{
+    /* 清除ul标签的默认样式 */
+    width: auto;/*宽度也改为自动*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    /* margin-top: 0;          */
+    padding: 0;
+
+}
+.MarkTop li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+
+.ComeBack {
+    position:fixed;
+    left:20px;
+    top:10px;
+    /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+    font-family: KaiTi;/*字体设置为楷体*/
+    font-size: 25px;
+}
+.ComeBack:hover{
+    /* 设置鼠标选中a标签之后，标签字体变色*/
+    list-style-type:none;
+    color: #00b8dc;
+    padding-bottom: 2px;
+}
+.Blogtitle{
+    position:fixed;
+    left:150px;
+    top:10px;
+    height: 37px;
+    width: 1000px;
+
+    outline-style: none ;/*取消外边框*/
+    border: 1.2px solid #ccc;/*设置灰色 1px的边框*/
+    border-radius: 3px;/*设置边框圆角效果*/
+    font-size: 24px;/*字体大小*/
+    font-weight: 700;
+    font-family: KaiTi;/*字体设置为楷体*/
+    /*设置输入框点击发光效果*/
+    border-color: #000000;
+
+}
+.MarkBtn1{
+    position:fixed;
+    left:1160px;
+    top:10px;
+
+    width: 150px;/*设置按钮宽度*/
+    height: 37px;/*设置按钮高度*/
+    color:white;/*字体颜色*/
+    background-color: #787b77;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    border-width: 0;/*消去按钮丑的边框*/
+    margin: 0;
+    outline-color: #0020ff;/*取消轮廓*/
+    border-color: #000000;
+    font-family: KaiTi;/*字体设置为楷体*/
+    font-size: 25px;/*设置字体大小*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+}
+.MarkBtn2{
+    position:fixed;
+    left:1330px;
+    top:10px;
+
+    width: 150px;/*设置按钮宽度*/
+    height: 37px;/*设置按钮高度*/
+    color:white;/*字体颜色*/
+    background-color: #787b77;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    border-width: 0;/*消去按钮丑的边框*/
+    margin: 0;
+    outline-color: #0020ff;/*取消轮廓*/
+    font-family: KaiTi;/*字体设置为楷体*/
+    font-size: 25px;/*设置字体大小*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+}
+.MarkBtn1:hover{
+    background-color: #007ded;/*按钮背景颜色*/
+}
+.MarkBtn2:hover{
+    background-color: #007ded;/*按钮背景颜色*/
+}

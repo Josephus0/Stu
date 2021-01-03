@@ -1,0 +1,21 @@
+.articlecontent{
+    position: relative;
+    top:30px;
+    left: 50px;
+    height: auto;
+    width: 1400px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.backgroundpic{
+    width:100%;
+    height:auto;
+}
+.frist {position:fixed;left:-1px;top:0px; width: 100%;/*设置按钮宽度*/height: 100%;/*设置按钮高度*/}
+.backpic{height: 100%;width: 100%;background-size: cover; position: absolute;overflow: hidden; /**亮度 */-webkit-filter: brightness(40%);filter: brightness(40%);}
+.textconment{height: 80px;width: 1300px;font-size: 20px;}
+.submitcomment{border:1px solid #1e7db9;
+     height: 35px;width: 110px;cursor:pointer;
+    box-shadow: 0 1px 2px #8fcaee inset,0 -1px 0 #497897 inset,0 -2px 3px #8fcaee inset;
+    background: -webkit-linear-gradient(top,#42a4e0,#2e88c0);background: -moz-linear-gradient(top,#42a4e0,#2e88c0);background: linear-gradient(top,#42a4e0,#2e88c0);}
+
+

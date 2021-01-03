@@ -1,0 +1,68 @@
+.left{ position:fixed; left: 120px;top: 35px;width: 100px ;height: 500px;
+}
+.left ul {list-style-type: none;margin: 0;padding: 0;}
+.left a {display: block;background-color: #2c2e2e;
+    color: #d3d8d8;width: 80px;text-align: center;padding: 4px;text-decoration: none;
+    font-size: 21px;font-family: cursive;<!--草书 -->
+}
+.left li{
+    white-space: nowrap; cursor: pointer;/*设置鼠标箭头手势*/
+}
+.left a:hover, a:active {background-color: #2c99b0;}
+.center{
+    position:fixed;
+}
+.inner{
+    position:fixed; left: 220px;top: 50px;
+}
+.leftdiv2{
+    position: fixed;
+    top:370px;left:228px;
+    width: 500px;height: 335px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.rightdiv{
+    position: relative;
+    top:50px;left:750px;
+    width: 700px;height: 720px;/**到时候要记得改成auto*/
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+.searchinput{
+    position: relative;
+    top: 1px;
+    left: 0px;
+    float: left;/*左浮动*/
+    flex: 4;
+    height: 30px;
+    outline: none;
+    border: 1px solid #2c99b0;
+    box-sizing: border-box;//盒子模型，怪异IE盒子模型width=content+border*2+padding*2;
+    padding-left: 10px;
+}
+.searchbtn{
+    position: relative;
+    top: 1px;
+    left: -490px;
+    float: right;
+    flex: 1;
+    height: 30px;
+    background-color: #2c99b0;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 16px;
+}
+.tuijian{
+    position: relative;
+    left: 220px;top: 50px;
+    width: 800px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.5);
+}

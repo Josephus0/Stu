@@ -1,0 +1,36 @@
+.frist {position:fixed;left:-1px;top:0px; width: 100%;/*设置按钮宽度*/height: 100%;/*设置按钮高度*/}
+.backpic{height: 100%;width: 100%;background-size: cover; position: absolute;overflow: hidden; /**亮度 */-webkit-filter: brightness(50%);filter: brightness(50%);}
+.leftul {list-style-type: none;margin: 0;padding: 0; position: absolute;top:20px;left: 5px;}
+.leftNavigation a {display: block;background-color: #2c2e2e;color: #d3d8d8;width: 180px;text-align: center;padding: 4px;text-decoration: none;font-size: 21px;font-family: cursive;<!--草书 -->}
+.leftNavigation li{white-space: nowrap; cursor: pointer;/*设置鼠标箭头手势*/}
+.bigdiv{
+    position:relative;top:10px;left:200px;height: auto;width: 600px;}
+.leftNavigation{position: fixed;top:0px;left:5px;width: 200px; height: auto;background:  rgba(255, 255, 255, 0.5);}
+.leftNavigation a:hover, a:active {background-color: #2c99b0;}
+
+.userdiv{position: relative; top:3px;left:20px;width: 800px;height: auto;background:  rgba(255, 255, 255, 0.5);}
+.articlediv{
+    position: relative; top:3px;left:20px;
+    width: 800px;
+    height: auto;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.recommenddiv{
+    position: relative; top:3px;left:20px;
+    width: 800px;
+    height: auto;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.editordiv{
+    position: fixed; top:25px;left:1200px;
+    width: 300px;
+    height: 350px;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.advertisementdiv{
+    position: relative; top:3px;left:20px;
+    width: 800px;
+    height: auto;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.advertisementdiv Button:hover{  background: rgba(0, 43, 214, 0.7);}

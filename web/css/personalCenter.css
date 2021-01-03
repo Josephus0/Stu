@@ -1,0 +1,96 @@
+.backpic{
+    position:fixed;
+    left:-1px;
+    top:0px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    /**
+    亮度
+     */
+    -webkit-filter: brightness(40%);
+    filter: brightness(40%);
+}
+.top{
+    position:fixed;
+    left:100px;
+    /* 设置宽度高度背景颜色 */
+    height: 700px; /*高度改为自动高度*/
+    width:200px;
+    margin-left: 0;
+    background: rgba(255,255,255,0.5);
+    position: fixed; /*固定在顶部*/
+    top: 10px;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.top ul{
+    /* 清除ul标签的默认样式 */
+    width: auto;/*宽度也改为自动*/
+    list-style-type: none;
+    white-space:nowrap;
+    overflow: hidden;
+    margin-left: 5%;
+    /* margin-top: 0;          */
+    padding: 0;
+
+}
+.top li {
+    margin-right:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+    font-size: 30px;
+
+}
+.person{
+    display: block; padding: 3px;
+    overflow: hidden;
+    color: #000507;
+    text-decoration: none; /* 去除下划线 */
+}
+.account{
+    /* 设置链接内容显示的格式*/
+    display: block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color: #000000;
+    padding: 3px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+}
+.changepassword{
+    display: block; padding: 3px;
+    overflow: hidden;
+    color: #000507;
+    text-decoration: none; /* 去除下划线 */
+}
+.account:hover{
+    /* 鼠标选中时背景变为黑色 background-color: #0300ff;*/
+    /* 因为是hover'选择器，所以鼠标选中时出现下下划线*/
+    list-style-type:none;
+    color: #00d1ff;
+}
+.changepassword:hover{
+    /* 鼠标选中时背景变为黑色 background-color: #0300ff;*/
+    /* 因为是hover'选择器，所以鼠标选中时出现下下划线*/
+    list-style-type:none;
+    color: #00d1ff;
+}
+.top2 {
+    position: fixed;
+    left: 303px;
+    /* 设置宽度高度背景颜色 */
+    height: 700px; /*高度改为自动高度*/
+    width: 900px;
+    margin-left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed; /*固定在顶部*/
+    top: 10px; /*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.topto{
+    position: fixed;
+    left: 800px;
+    top: 80px;
+}
+.MessageList{position:fixed; left: 350px;top: 20px;}
+.MessageList p{font-size: 25px;}

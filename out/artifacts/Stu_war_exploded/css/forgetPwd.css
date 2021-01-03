@@ -1,0 +1,120 @@
+body {
+    background-image:url("../images/dlbg.jpg");
+    font-size: 20px;
+    font-style: normal;
+}
+/** **/
+/**邮箱*/
+.emailx{
+    position:fixed;
+    left:600px;
+    top:200px;
+    width: 350px;/*设置按钮宽度*/
+    height: 50px;/*设置按钮高度*/
+    font-size: 27px;/*字体大小*/
+    font-weight: 700;
+    border-color: #0fd3e9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(233, 0, 218);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255, 0, 22)
+}
+/** 获取验证码**/
+.getNum{
+    position:fixed;
+    left:830px;
+    top:280px;
+    width: 120px;/*设置按钮宽度*/
+    height: 50px;/*设置按钮高度*/
+    font-size: 20px;/*字体大小*/
+    font-weight: 700;
+}
+.verpwd{
+    display:none;
+}
+/** 验证码**/
+.yzm{
+    position:fixed;
+    left:600px;
+    top:280px;
+    width: 210px;/*设置按钮宽度*/
+    height: 50px;/*设置按钮高度*/
+    font-size: 27px;/*字体大小*/
+    font-weight: 700;
+    border-color: #0fd3e9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(233, 0, 218);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255, 0, 22)
+}
+.msg1{
+    position:fixed;
+    left:600px;
+    top:360px;
+}
+.yz{
+    position:fixed;
+    left:600px;
+    top:400px;
+    width: 350px;/*设置按钮宽度*/
+    height: 40px;/*设置按钮高度*/
+    color:white;/*字体颜色*/
+    background-color: #007ded;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    border-width: 0;/*消去按钮丑的边框*/
+    margin: 0;
+    outline: none;/*取消轮廓*/
+    font-family: KaiTi;/*字体设置为楷体*/
+    font-size: 25px;/*设置字体大小*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+}
+.pwd1{
+    position:fixed;
+    left:600px;
+    top:250px;
+    width: 210px;/*设置按钮宽度*/
+    height: 50px;/*设置按钮高度*/
+    font-size: 27px;/*字体大小*/
+    font-weight: 700;
+    border-color: #0fd3e9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(233, 0, 218);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255, 0, 22)
+}
+.pwd2{
+    position:fixed;
+    left:600px;
+    top:320px;
+    width: 210px;/*设置按钮宽度*/
+    height: 50px;/*设置按钮高度*/
+    font-size: 27px;/*字体大小*/
+    font-weight: 700;
+    border-color: #0fd3e9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(233, 0, 218);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(255, 0, 22)
+}
+.sub{
+    position:fixed;
+    left:600px;
+    top:400px;
+    width: 350px;/*设置按钮宽度*/
+    height: 40px;/*设置按钮高度*/
+    color:white;/*字体颜色*/
+    background-color: #007ded;/*按钮背景颜色*/
+    border-radius: 3px;/*让按钮变得圆滑一点*/
+    border-width: 0;/*消去按钮丑的边框*/
+    margin: 0;
+    outline: none;/*取消轮廓*/
+    font-family: KaiTi;/*字体设置为楷体*/
+    font-size: 25px;/*设置字体大小*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*设置鼠标箭头手势*/
+}
+.msg{
+    position:fixed;
+    left:600px;
+    top:360px;
+}
+button:hover{/*鼠标移动时的颜色变化*/
+    background-color: #0038fa;
+}

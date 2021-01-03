@@ -1,0 +1,39 @@
+.alldiv{
+    position:relative;
+    top:10px;
+    left:200px;
+    height: auto;
+    width: 600px;
+}
+.leftbtn{
+    position: fixed;
+    left: 70px;
+    width: 200px;
+    height: 300px;
+    float:left;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.leftbtn ul {list-style-type: none;margin: 0;padding: 0; position: absolute;top:20px;left: 5px;}
+.leftbtn a {display: block;background-color: #2c2e2e;
+    color: #d3d8d8;width: 180px;text-align: center;padding: 4px;text-decoration: none;
+    font-size: 21px;font-family: cursive;<!--草书 -->
+}
+.leftbtn li{
+    white-space: nowrap; cursor: pointer;/*设置鼠标箭头手势*/
+}
+.bloglistdiv{
+    position: relative;
+    left: 100px;
+    width: 800px;
+    background:  rgba(255, 255, 255, 0.5);
+}
+.leftbtn li{
+    white-space: nowrap; cursor: pointer;/*设置鼠标箭头手势*/
+}
+.leftbtn a:hover, a:active {background-color: #2c99b0;}
+.blist{
+    position:relative;
+    left: 10px;
+    width: 450px;height: 80px;
+}.frist {position:fixed;left:-1px;top:0px; width: 100%;/*设置按钮宽度*/height: 100%;/*设置按钮高度*/}
+.backpic{height: 100%;width: 100%;background-size: cover; position: absolute;overflow: hidden; /**亮度 */-webkit-filter: brightness(50%);filter: brightness(50%);}
