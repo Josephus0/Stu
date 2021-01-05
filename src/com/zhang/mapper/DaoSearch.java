@@ -16,7 +16,6 @@ public class DaoSearch {
     public static ArrayList<article> GetSearchReslist(String str){
         ArrayList<article> Searchlist=new ArrayList<>();
 
-
         Connection conn = null;
         ResultSet res = null;
         PreparedStatement presta = null;
@@ -33,7 +32,6 @@ public class DaoSearch {
             res=presta.executeQuery();
             while(res.next()) {
                 article b=new article();
-
                 b.setTitle(res.getString("title"));//标题 简介 id 是否原创 日期
                 b.setAuthor(res.getString("author"));
                 b.setIntroduction(res.getString("brief"));
