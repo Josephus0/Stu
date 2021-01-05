@@ -35,7 +35,8 @@ public class ImageUpload {
                 //图片名称使用当前时间戳命名，保证名称唯一性
                 fileName = System.currentTimeMillis() + fileName.substring(index);
                 req.setAttribute("realFileName", fileName);
-                File baseDir = new File("C:\\Users\\Zhang\\IdeaProjects\\Stu\\web\\images\\HeadPic");
+
+                File baseDir = new File("D:\\IdeaProjects\\Stu\\web\\images\\HeadPic");
                 File targetFile = new File(baseDir, fileName);
                 fileName = "images/HeadPic/" +fileName;
                 try {
